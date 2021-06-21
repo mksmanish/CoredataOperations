@@ -14,6 +14,8 @@
 		132EA9A926703F210000690A /* testing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 132EA9A726703F210000690A /* testing.xcdatamodeld */; };
 		132EA9AB26703F250000690A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132EA9AA26703F250000690A /* Assets.xcassets */; };
 		132EA9AE26703F250000690A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132EA9AC26703F250000690A /* LaunchScreen.storyboard */; };
+		132EA9BD267041CE0000690A /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132EA9BC267041CE0000690A /* DatabaseHelper.swift */; };
+		132EA9C5267059620000690A /* viewcontrollercellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132EA9C4267059620000690A /* viewcontrollercellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		132EA9AA26703F250000690A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		132EA9AD26703F250000690A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		132EA9AF26703F250000690A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132EA9BC267041CE0000690A /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		132EA9C4267059620000690A /* viewcontrollercellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontrollercellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				132EA9AC26703F250000690A /* LaunchScreen.storyboard */,
 				132EA9AF26703F250000690A /* Info.plist */,
 				132EA9A726703F210000690A /* testing.xcdatamodeld */,
+				132EA9BC267041CE0000690A /* DatabaseHelper.swift */,
+				132EA9C4267059620000690A /* viewcontrollercellTableViewCell.swift */,
 			);
 			path = testing;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 			files = (
 				132EA9A326703F210000690A /* ViewController.swift in Sources */,
 				132EA99F26703F210000690A /* AppDelegate.swift in Sources */,
+				132EA9C5267059620000690A /* viewcontrollercellTableViewCell.swift in Sources */,
+				132EA9BD267041CE0000690A /* DatabaseHelper.swift in Sources */,
 				132EA9A926703F210000690A /* testing.xcdatamodeld in Sources */,
 				132EA9A126703F210000690A /* SceneDelegate.swift in Sources */,
 			);
